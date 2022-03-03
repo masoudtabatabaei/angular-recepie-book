@@ -1,1 +1,29 @@
-<p>recipe-detail works!</p>
+<div class="row">
+  <div class="col col-sm-12">
+    <h3>Recipe Name</h3>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              (click)="show = !show">
+        Actions
+      </button>
+      <div class="dropdown-menu" [class.show]="show">
+        <a class="dropdown-item" href="#">To Shopping List</a>
+        <a class="dropdown-item" href="#">Edit Recipe</a>
+        <a class="dropdown-item" href="#">Delete Recipe</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-sm-12">
+    <div>Recipe Description puts here!</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-sm-12">
+    Ingredients
+  </div>
+</div>
