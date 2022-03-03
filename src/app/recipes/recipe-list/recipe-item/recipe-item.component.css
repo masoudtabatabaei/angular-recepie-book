@@ -6,6 +6,12 @@
   text-decoration: none;
   color: #111111;
   box-shadow: 0 2px 5px #dddddd;
+  transition: background-color 0.2s ease;
+}
+
+.recipe-item:hover {
+  background-color: #444444;
+  color: #ffffff;
 }
 
 .recipe-item img {
