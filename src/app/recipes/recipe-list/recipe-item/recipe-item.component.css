@@ -1,0 +1,14 @@
+.recipe-item {
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+  margin: 9px 0;
+  text-decoration: none;
+  color: #111111;
+  box-shadow: 0 2px 5px #dddddd;
+}
+
+.recipe-item img {
+  max-width: 160px;
+  border-radius: 6px;
+}

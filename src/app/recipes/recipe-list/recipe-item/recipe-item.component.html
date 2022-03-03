@@ -1,1 +1,11 @@
-<p>recipe-item works!</p>
+<a href="#" class="d-block recipe-item">
+  <div class="d-flex flex-row justify-content-between">
+    <div>
+      <h3>{{ recipe.name }}</h3>
+      <div>{{ recipe.description }}</div>
+    </div>
+    <span>
+        <img src="assets/img/{{ recipe.imagePath }}" class="img-fluid" alt="{{ recipe.name }}">
+      </span>
+  </div>
+</a>
